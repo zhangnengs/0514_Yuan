@@ -29,7 +29,7 @@ import com.offcn.service.GoodsService;
 @Controller
 @RequestMapping("/goods")
 public class GoodsController {
-    
+    //添加依赖
     @Resource
     GoodsService goodsService;
     
