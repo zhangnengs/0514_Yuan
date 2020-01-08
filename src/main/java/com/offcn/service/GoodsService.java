@@ -1,8 +1,8 @@
 package com.offcn.service;
 
-import java.util.List;
-
 import com.offcn.po.Goods;
+
+import java.util.List;
 
 
 /**
@@ -14,6 +14,7 @@ public interface GoodsService {
     //分页
     List<Goods> getGoodsPager(int pageNO, int size);
 
+    //改一点
     //获得单个商品对象
     Goods getGoodsById(int id);
     
